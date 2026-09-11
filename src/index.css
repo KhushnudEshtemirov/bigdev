@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-console-bg: #12141c;
+  --color-console-panel: #181b26;
+  --color-console-panelAlt: #1e2230;
+  --color-console-border: #2b2f3f;
+  --color-console-text: #e9eaf2;
+  --color-console-dim: #888ea3;
+
+  --color-accent-purple: #9b6dff;
+  --color-accent-green: #38d996;
+  --color-accent-amber: #f2b84b;
+  --color-accent-blue: #5c8df0;
+
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Public Sans", sans-serif;
+}
+
+* {
+  scroll-behavior: smooth;
+}
