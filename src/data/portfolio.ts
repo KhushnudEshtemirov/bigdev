@@ -23,10 +23,10 @@ export const STACK_TAGS = [
 ];
 
 export const STATS: StatEntry[] = [
-  { label: "years of experience", value: "3+", color: "purple" },
-  { label: "completed projects", value: "6", color: "green" },
-  { label: "working languages (uz / ru)", value: "2", color: "blue" },
-  { label: "currently learning", value: "∞", color: "amber" },
+  { label: "years of experience", value: "5+", color: "purple" },
+  { label: "completed projects", value: "10+", color: "green" },
+  { label: "working languages (uz / en / ru)", value: "3", color: "blue" },
+  { label: "currently learning", value: "AngularJS", color: "amber" },
 ];
 
 export const EXPERIENCE: ExperienceEntry[] = [
@@ -87,7 +87,23 @@ export const PROJECTS: ProjectEntry[] = [
     accent: "purple",
   },
   {
-    name: "Autopay Webview",
+    name: "Muxlisa AI",
+    status: "work project",
+    description:
+      "Speech-to-text and text-to-speech AI system offering real-time transcription, high-quality neural voices, language detection, punctuation restoration, and streaming APIs. Supports Uzbek and English with customization options for voice, speed, and format for integration into web and mobile apps.",
+    stack: ["Next.js", "TypeScript"],
+    accent: "green",
+  },
+  {
+    name: "Credits Management System",
+    status: "work project",
+    description:
+      "A system for managing credits with three verification steps: soft, hard, and legal checks. Includes dashboard, data visualization, and full CRUD operations.",
+    stack: ["React", "TypeScript"],
+    accent: "green",
+  },
+  {
+    name: "Autopay System",
     status: "work project",
     description:
       "Payment limit management page, with live clock and currency conversion logic.",
@@ -97,11 +113,12 @@ export const PROJECTS: ProjectEntry[] = [
 ];
 
 export const SKILLS: SkillEntry[] = [
-  { name: "React", percent: 95 },
+  { name: "JavaScript", percent: 90 },
+  { name: "TypeScript", percent: 85 },
+  { name: "ReactJS", percent: 95 },
   { name: "NextJS", percent: 90 },
-  { name: "TypeScript", percent: 90 },
   { name: "Tailwind CSS", percent: 92 },
-  { name: "Ant Design", percent: 85 },
+  { name: "Ant Design", percent: 90 },
   { name: "Redux Toolkit", percent: 85 },
   { name: "TanStack Query", percent: 88 },
   { name: "AngularJS", percent: 35, learning: true },

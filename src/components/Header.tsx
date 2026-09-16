@@ -13,7 +13,7 @@ export function Header() {
       <div className="mx-auto flex max-w-[1080px] items-center justify-between px-6 py-3.5 font-mono text-[12.5px]">
         <div className="flex items-center gap-2.5 font-semibold tracking-wide">
           <span className="h-[7px] w-[7px] animate-pulse2 rounded-full bg-accent-green shadow-[0_0_0_3px_rgba(56,217,150,0.15)]" />
-          Khushnud (bigdev) / frontend
+          BIGDEV / frontend
         </div>
 
         <nav className="hidden gap-6 text-console-dim sm:flex">
@@ -28,7 +28,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-4 text-console-dim sm:flex">
+        <div className="hidden items-center font-mono gap-4 text-console-dim sm:flex">
           <span>
             UTC+5 · <b className="font-medium text-console-text">{clock}</b>
           </span>
