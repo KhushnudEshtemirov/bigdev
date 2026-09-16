@@ -11,7 +11,7 @@ const STAT_TEXT_COLOR: Record<AccentColor, string> = {
 
 export function Hero() {
   return (
-    <section className="pb-16 pt-20">
+    <section id="home" className="pb-16 pt-20">
       <div className="mx-auto grid max-w-[1080px] grid-cols-1 gap-10 px-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
         <div>
           <span className="mb-4 block font-mono text-[11.5px] uppercase tracking-[0.12em] text-accent-purple">
