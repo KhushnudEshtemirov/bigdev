@@ -1,10 +1,12 @@
-import { ContactSection } from './components/ContactSection';
-import { ExperienceSection } from './components/ExperienceSection';
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { ProjectsSection } from './components/ProjectsSection';
-import { SkillsSection } from './components/SkillsSection';
+import {
+  ContactSection,
+  ExperienceSection,
+  Footer,
+  Header,
+  Hero,
+  ProjectsSection,
+  SkillsSection,
+} from "./components";
 
 export function App() {
   return (

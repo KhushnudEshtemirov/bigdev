@@ -31,49 +31,60 @@ export const STATS: StatEntry[] = [
 
 export const EXPERIENCE: ExperienceEntry[] = [
   {
-    id: "#003",
+    id: "#005",
     role: "Frontend Developer",
-    company: "Bank (AAB)",
+    company: "Asia Alliance Bank",
     description:
-      "Acquiring admin panel: merchant and terminal management, transaction monitoring",
-    period: "2024 — present",
+      "Own frontend architecture for new projects and mentor incoming engineers, guiding them from onboarding to production contributions.",
+    period: "Oct 2024 — Present",
     status: "active",
   },
   {
-    id: "#002",
+    id: "#004",
     role: "Frontend Developer",
-    company: "",
-    description: "Internal web applications and admin panel components",
-    period: "2022 — 2024",
+    company: "\u201CSingle Integrator \u2013 UZINFOCOM\u201D LLC",
+    description:
+      "Modernized existing projects with new technologies and re-architected a legacy system for clarity, extensibility, and maintainability.",
+    period: "Sep 2023 — Oct 2024",
+    status: "completed",
+  },
+  {
+    id: "#003",
+    role: "Frontend Developer",
+    company: "\u201CNAPA AUTOMOTIVE\u201D LLC",
+    description:
+      "Reviewed junior developers\u2019 code and built a diaspora platform and a two-sided job marketplace with React, Redux Toolkit, and i18next.",
+    period: "Dec 2022 — Sep 2023",
+    status: "completed",
+  },
+  {
+    id: "#002",
+    role: "Fullstack Developer",
+    company: "CyberAREA XK",
+    description:
+      "Designed and shipped a corporate website for a mining company using HTML, CSS, JavaScript, jQuery, Ajax, PHP, and MySQL.",
+    period: "Feb 2022 — May 2022",
     status: "completed",
   },
   {
     id: "#001",
-    role: "Junior Frontend Developer",
-    company: "",
+    role: "Frontend Developer & Mentor",
+    company: "ITEG IT Academy",
     description:
-      "First projects with React, getting familiar with UI components",
-    period: "2021 — 2022",
+      "Taught students web development fundamentals: HTML, CSS, JavaScript, and jQuery.",
+    period: "Aug 2021 — Feb 2022",
     status: "completed",
   },
 ];
 
 export const PROJECTS: ProjectEntry[] = [
   {
-    name: "AudioLibrary",
+    name: "Imperial Autoshipping",
     status: "personal project",
     description:
-      "An audiobook platform in Uzbek. Audio player, categories, author profiles, and catalog pages.",
-    stack: ["React", "TypeScript", "HTML5 Audio API"],
+      "Car shipping service website with a quote calculator and contact form.",
+    stack: ["React", "TypeScript", "REST API"],
     accent: "purple",
-  },
-  {
-    name: "Acquiring Admin Panel",
-    status: "work project",
-    description:
-      "Admin panel for payment terminals: managing merchants, terminals, and transactions.",
-    stack: ["React", "TanStack Query", "Spring Boot"],
-    accent: "blue",
   },
   {
     name: "Autopay Webview",
@@ -83,21 +94,15 @@ export const PROJECTS: ProjectEntry[] = [
     stack: ["React", "TypeScript"],
     accent: "green",
   },
-  {
-    name: "Loan Sync Dashboard",
-    status: "work project",
-    description:
-      "Monitoring panel for loan synchronization processes: metrics and status cards.",
-    stack: ["React", "lucide-react"],
-    accent: "amber",
-  },
 ];
 
 export const SKILLS: SkillEntry[] = [
   { name: "React", percent: 95 },
+  { name: "NextJS", percent: 90 },
   { name: "TypeScript", percent: 90 },
   { name: "Tailwind CSS", percent: 92 },
   { name: "Ant Design", percent: 85 },
+  { name: "Redux Toolkit", percent: 85 },
   { name: "TanStack Query", percent: 88 },
   { name: "AngularJS", percent: 35, learning: true },
 ];
