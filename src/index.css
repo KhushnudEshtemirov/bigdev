@@ -15,6 +15,24 @@
 
   --font-mono: "JetBrains Mono", monospace;
   --font-sans: "Public Sans", sans-serif;
+
+  --animate-pulse2: pulse2 1s infinite;
+  @keyframes pulse2 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+  }
+
+  --animate-blink: blink 1s step-end infinite;
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
 }
 
 * {
