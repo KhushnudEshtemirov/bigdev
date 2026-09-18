@@ -117,11 +117,9 @@ export const SKILLS: SkillEntry[] = [
   { name: "TypeScript", percent: 85 },
   { name: "ReactJS", percent: 95 },
   { name: "NextJS", percent: 90 },
-  { name: "Tailwind CSS", percent: 92 },
-  { name: "Ant Design", percent: 90 },
   { name: "Redux Toolkit", percent: 85 },
   { name: "TanStack Query", percent: 88 },
-  { name: "AngularJS", percent: 35, learning: true },
+  { name: "AngularJS", percent: 55 },
 ];
 
 export const LANGUAGES: LanguageEntry[] = [
